@@ -66,7 +66,7 @@ public  class Checkout {
         double shipping =  cart.calculateShippingFees();
         double amount = subtotal + shipping;
         System.out.println("Subtotal " + String.format("%.1f", subtotal) + " $");
-        System.out.println("Subtotal " + String.format("%.1f", shipping)+ " $");
+        System.out.println("Shipping " + String.format("%.1f", shipping)+ " $");
         System.out.println("Amount " + String.format("%.1f", amount)+ " $");
     }
 }
